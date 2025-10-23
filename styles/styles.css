@@ -1,0 +1,10 @@
+#header {
+  background: rgb(228, 170, 84);
+  padding: 10px;
+  text-align: center;
+}
+
+#footer {
+  background-color: darkgrey;
+  text-align: center;
+}
