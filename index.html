@@ -1,15 +1,54 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./styles/styles.css" />
     <script type="text/javascript" src="./scripts/script.js"></script>
   </head>
+
   <body>
     <header id="header">
       <h1>Bienvenue chez Pression Sociale, votre bar de proximité !</h1>
       <p>Venez déguster nos bières locales, toutes en format pression.</p>
     </header>
-    <main></main>
+    <main>
+      <!-- Brewery Presentation section -->
+      <section
+        id="home"
+        class="bg-[url(https://intra.cducentre.com/images/upload_jVvrhFptRwJJ/imgAdherent/brasserieducontrevent_largechoixdebieres-64b820aa4bd9e.jpeg)] bg-cover"
+      >
+        <div
+          class="px-8 text-white min-h-screen flex flex-col items-center justify-center gap-16 bg-black/30 bg-blur"
+        >
+          <h2 class="text-5xl font-bold">Pression Sociale</h2>
+          <div class="w-1/2 flex flex-col gap-4">
+            <p>
+              Depuis 2019, la Brasserie
+              <strong>Pression Sociale</strong> perpétue le savoir-faire
+              brassicole artisanal avec une touche d'humour et beaucoup de
+              passion. Installée au cœur de notre région, nous brassons des
+              bières de caractère, non filtrées et non pasteurisées, élaborées à
+              partir d'ingrédients locaux soigneusement sélectionnés.
+            </p>
+            <p>
+              Chez <strong>Pression Sociale</strong>, la “pression” est avant
+              tout une affaire de partage : celle qu'on tire entre amis, autour
+              d'un comptoir, pour célébrer les petits et grands moments. Chaque
+              brassin reflète notre envie d'allier tradition et créativité,
+              entre respect du malt et audace du houblon.
+            </p>
+            <p>
+              Nos bières sont conçues pour rassembler, susciter la discussion,
+              et rappeler que la vraie pression sociale, c'est celle qu'on
+              choisit de déguster ensemble. 🍻
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Container for dynamically generated beer sections -->
+      <div id="beers-container"></div>
+    </main>
     <footer id="footer">
       <a href="contact.html">Contact</a>
       <p>Copyright CDA 2025</p>
